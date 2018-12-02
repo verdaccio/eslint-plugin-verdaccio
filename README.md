@@ -43,7 +43,7 @@ Then configure the rules you want to use under the rules section.
 
 ## Supported Rules
 
-* [verdaccio/jsx-spread](docs/rules/jsxp-spread.md): Enforce don't use of spread operators with JSX components.
+* [verdaccio/jsx-spread](docs/rules/jsx-spread.md): Enforce don't use of spread operators with JSX components.
 
 
 
