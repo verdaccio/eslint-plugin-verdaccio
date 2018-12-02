@@ -36,14 +36,14 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "verdaccio/rule-name": 2
+        "verdaccio/jsx-spread": 2
     }
 }
 ```
 
 ## Supported Rules
 
-* Fill in provided rules here
+* [verdaccio/jsx-spread](docs/rules/jsxp-spread.md): Enforce don't use of spread operators with JSX components.
 
 
 

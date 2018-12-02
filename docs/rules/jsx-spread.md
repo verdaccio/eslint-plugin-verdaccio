@@ -5,13 +5,16 @@ Please describe the origin of the rule here.
 
 ## Rule Details
 
-This rule aims to...
+This rule checks whether the first property of all JSX elements is correctly placed. There are the possible configurations:
+
+* `always`: The spread operator is invalid as JSX attribute.
+* `never` : The spread operator is allowed as JSX attribute.
 
 Examples of **incorrect** code for this rule:
 
 ```js
 
-// fill me in
+<div {...props}>
 
 ```
 
@@ -19,18 +22,6 @@ Examples of **correct** code for this rule:
 
 ```js
 
-// fill me in
+<div foo="1" bar="2"/>
 
 ```
-
-### Options
-
-If there are any options, describe them here. Otherwise, delete this section.
-
-## When Not To Use It
-
-Give a short description of when it would be appropriate to turn off this rule.
-
-## Further Reading
-
-If there are other links that describe the issue this rule addresses, please include them here in a bulleted list.
