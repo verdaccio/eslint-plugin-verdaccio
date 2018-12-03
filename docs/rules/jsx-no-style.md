@@ -1,4 +1,4 @@
-# disallow style on jsx components (no-style)
+# disallow style on jsx components (jsx-no-style)
 
 Please describe the origin of the rule here.
 

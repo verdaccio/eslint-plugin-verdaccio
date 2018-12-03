@@ -4,7 +4,7 @@ verdaccio code guide lines
 
 ## Installation
 
-You'll first need to install [ESLint](http://eslint.org):
+You"ll first need to install [ESLint](http://eslint.org):
 
 ```
 $ npm i eslint --save-dev
@@ -36,14 +36,18 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "verdaccio/jsx-spread": 2
+        "verdaccio/jsx-spread": "error",
+        "verdaccio/jsx-no-style": "error",
+        "verdaccio/jsx-no-classname-object": "error"
     }
 }
 ```
 
 ## Supported Rules
 
-* [verdaccio/jsx-spread](docs/rules/jsx-spread.md): Enforce don't use of spread operators with JSX components.
+* [verdaccio/jsx-spread](docs/rules/jsx-spread.md): Enforce don"t use of spread operators with JSX components.
+* [verdaccio/jsx-no-style](docs/rules/jsx-no-style.md): Enforce don"t use of style attribute with JSX components.
+* [verdaccio/jsx-no-classname-object](docs/rules/jsx-no-classname-object.md): Enforce don"t use of nested objects on className attribute with JSX components.
 
 
 
