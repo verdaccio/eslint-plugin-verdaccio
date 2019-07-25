@@ -1,3 +1,9 @@
+## Deprecated repository
+
+**This repository has been moved to a monorepo you can find in [verdaccio/monorepo](https://github.com/verdaccio/monorepo). This package is located in [`tools/eslint-plugin-verdaccio` folder](https://github.com/verdaccio/monorepo/tree/master/tools/eslint-plugin-verdaccio)**
+
+---
+
 # eslint-plugin-verdaccio
 
 verdaccio code guide lines
